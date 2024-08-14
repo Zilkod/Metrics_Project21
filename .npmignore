@@ -1,0 +1,8 @@
+node_modules/
+bower_components/
+Gruntfile.js
+test/
+www/
+bower.json
+.jshintrc
+.gitignore

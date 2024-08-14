@@ -1,0 +1,27 @@
+{
+  "curly": true,
+  "eqeqeq": true,
+  "immed": true,
+  "latedef": true,
+  "newcap": true,
+  "noarg": true,
+  "sub": true,
+  "undef": true,
+  "boss": true,
+  "eqnull": true,
+  "node": true,
+  "shadow": true,
+  "expr": true,
+  "globals": {
+    "angular": false,
+    "$": false,
+    "window": false,
+    "ENDPOINTS": false,
+    "describe": false,
+    "it": false,
+    "beforeEach": false,
+    "before": false,
+    "xit": false,
+    "xdescribe": false
+  }
+}

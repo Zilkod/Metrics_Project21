@@ -1,0 +1,55 @@
+html, body {
+	width: 100%;
+	height: 100%;
+}
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: #fff;
+	.page-loading {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: -50px;
+		margin-left: -50px;
+		.spin-container {
+			font-size: 6em;
+			background: #fff;
+			box-shadow: 0 0 10px 0 #333;
+			border-radius: 20px;
+		}
+	}
+	a {
+		cursor: pointer;
+	}
+	.content-container {
+		padding-top: 50px;
+		min-height: 100%;
+		.row {
+			min-height: 100%;
+		}
+		.content {
+			min-height: 100%;
+			.page-details {
+				margin-top: 14px;
+			}
+		}
+	}
+	.graph {
+		display: block;
+		&>div.jqplot-target{
+			height: 100%;
+		}
+		.graph-error {
+			em {
+				font-size: 2em;
+				display: block;
+				margin-bottom: 0.5em;
+				font-style: normal;
+			}
+			padding-top: 2em;
+			display: block;
+			text-align: center;
+			font-size: 1.5em;
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"browsers": [{
+		"browserName": "chrome",
+		"version": 32
+	}],
+	"selenium": {
+		"hostname": "localhost",
+		"port": 4444
+	},
+
+	"couch": {
+		"server": "http://localhost:5984",
+		"username": "admin_user",
+		"pwd": "admin_pass",
+		"database": "perfjankie-test"
+	}
+}

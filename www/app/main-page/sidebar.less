@@ -1,0 +1,68 @@
+@media (min-width:992px) {
+	.sidebar {
+		position: fixed;
+	}
+}
+.sidebar {
+	user-select: none;
+	background: #f8f8f8;
+	border: SOLID 1px #e7e7e7;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	margin-top: 50px;
+	padding: 0;
+	overflow-x: hidden;
+	.page-select {
+		padding: 10px;
+		h4 {
+			text-align: center;
+			font-size: 2.5em;
+			color: #ccc;
+			font-weight: bold;
+		}
+	}
+	.metadata {
+		padding: 10px 15px;
+		strong {
+			white-space: nowrap;
+			width: 100%;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			text-transform: uppercase;
+			vertical-align: middle;
+		}
+		.browser {
+			color: #aaa;
+			vertical-align: middle;
+			font-size: 3em;
+			float: right;
+			margin: -0.6em -0.6em 0 0;
+		}
+	}
+	ul.nav {
+		border-top: 1px solid #e7e7e7;
+		li {
+			border-bottom: 1px solid #e7e7e7;
+			&.active {
+				background-color: #eee;
+			}
+			.sub-menu{
+				a{
+					margin-left: 20px;
+				}
+			}
+			.icon-Paint:before {&:extend(.icon-brush:before);} 
+			.icon-Paint-sub:before{ &:extend(.icon-paintbucket:before);}
+			.icon-Content:before {&:extend(.icon-code:before);}
+			.icon-Content-sub:before {&:extend(.icon-file-code:before);}
+			.icon-Javascript:before {&:extend(.icon-cog-alt:before);}
+			.icon-Javascript-sub:before {&:extend(.icon-cog:before);} 
+			.icon-Frame:before {&:extend(.icon-movie:before);}
+			.icon-Network:before, .icon-Network-sub:before {&:extend(.icon-signal:before);}
+		}
+	}
+	.help {
+		padding: 10px;
+	}
+}
